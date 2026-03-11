@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruno Jaamaa — Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    padding: 40px 48px;
+    max-width: 8.5in;
+    margin: 0 auto;
+  }
+
+  .header { margin-bottom: 18px; border-bottom: 2px solid #1a1a1a; padding-bottom: 14px; }
+  .header h1 { font-size: 22pt; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 4px; }
+  .header .subtitle { font-size: 11pt; color: #374151; font-weight: 500; margin-bottom: 8px; }
+  .header .contact { font-size: 9pt; color: #4b5563; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  .header .contact a { color: #1a1a1a; text-decoration: none; }
+
+  .section { margin-bottom: 14px; }
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #d1d5db;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+  }
+
+  .entry { margin-bottom: 12px; }
+  .entry-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+  .entry-title { font-weight: 600; font-size: 10.5pt; }
+  .entry-org { font-size: 10pt; color: #374151; font-style: italic; }
+  .entry-date { font-size: 9pt; color: #6b7280; white-space: nowrap; }
+  .entry-tech { font-size: 9pt; color: #6b7280; margin-bottom: 4px; }
+  
+  ul { padding-left: 18px; margin-top: 4px; }
+  li { margin-bottom: 3px; font-size: 10pt; }
+  li::marker { color: #9ca3af; }
+
+  .skills-grid { display: grid; grid-template-columns: 120px 1fr; gap: 4px 12px; font-size: 10pt; }
+  .skill-label { font-weight: 600; color: #374151; }
+  .skill-value { color: #4b5563; }
+
+  @media print {
+    body { padding: 24px 32px; }
+    .section { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Bruno Jaamaa</h1>
+  <div class="subtitle">Software Engineer & UX Designer</div>
+  <div class="contact">
+    <span>Melbourne, Australia</span>
+    <span>jaamaabruno@gmail.com</span>
+    <span><a href="https://brunojaamaa.dev">brunojaamaa.dev</a></span>
+    <span><a href="https://linkedin.com/in/brunojaamaa">linkedin.com/in/brunojaamaa</a></span>
+    <span><a href="https://github.com/br9704">github.com/br9704</a></span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Summary</div>
+  <p style="font-size: 10pt; color: #374151;">
+    Fourth-year Software Engineering and UX Design student at the University of Melbourne with production experience delivering full-stack applications for industry clients. Led frontend development on a logistics platform for a 5-person agile team, earning a High Distinction. Currently building Sentinel, an AI-powered intelligence platform for iOS that has attracted international investor interest from the UAE. Bilingual (English/Finnish) with strong skills in React, TypeScript, Swift, Python, and cloud architecture.
+  </p>
+</div>
+
+<div class="section">
+  <div class="section-title">Experience</div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">Founder & Lead Developer — Sentinel Intelligence</span>
+      <span class="entry-date">2025 — Present</span>
+    </div>
+    <div class="entry-tech">SwiftUI · Supabase · Gemini 2.5 Flash · Firecrawl · Next.js · Deno · StoreKit 2 · Stripe</div>
+    <ul>
+      <li>Founded and built an AI-powered intelligence platform for iOS that generates verified research reports by cross-referencing 10+ web sources per query using Gemini 2.5 Flash</li>
+      <li>Architected full backend on Supabase — PostgreSQL with Row-Level Security, Edge Functions in Deno, real-time subscriptions, and OAuth authentication handling 50+ concurrent users</li>
+      <li>Developed companion Next.js web application with server-side rendering, responsive design, and shared report viewing across platforms</li>
+      <li>Implemented freemium monetisation model with StoreKit 2 (iOS) and Stripe (web), including usage-based gating and subscription management</li>
+      <li>Attracted early-stage investor interest from UAE-based technology fund; currently in pre-launch phase targeting App Store release Q1 2026</li>
+      <li>Managed full product lifecycle: market research, UX design, development, testing, branding, and go-to-market strategy</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">Frontend Lead — VOUCHR (Industry Client Project)</span>
+      <span class="entry-date">2025</span>
+    </div>
+    <div class="entry-org">University of Melbourne — IT Project (High Distinction)</div>
+    <div class="entry-tech">Full-Stack Development · Agile/Scrum · UX Design · Client Delivery</div>
+    <ul>
+      <li>Led frontend development for a logistics industry client as part of a 5-person agile team, delivering a production-ready platform within a single semester</li>
+      <li>Drove UX design process from user research through wireframing to final implementation, ensuring client requirements were met at every sprint review</li>
+      <li>Collaborated on backend architecture and API integration, bridging frontend and backend teams to ensure seamless data flow</li>
+      <li>Presented final deliverable to industry stakeholders, receiving a High Distinction grade — top band for the subject</li>
+      <li>Ran sprint planning, standups, and retrospectives following Scrum methodology across 12-week development cycle</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Projects</div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">GitHub 3D Visualizer</span>
+      <span class="entry-date">2025</span>
+    </div>
+    <div class="entry-tech">React · Three.js · TypeScript · GitHub REST API · Tailwind CSS</div>
+    <ul>
+      <li>Built an interactive 3D data visualisation tool rendering GitHub contribution data as explorable landscapes with dynamic camera controls at 60fps</li>
+      <li>Integrated GitHub API for real-time profile fetching — contribution graphs, repository stats, and language breakdowns for any public user</li>
+      <li>Optimised WebGL rendering pipeline with adaptive quality scaling to maintain performance across device capabilities</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">Real-Time Collaboration Dashboard</span>
+      <span class="entry-date">2025</span>
+    </div>
+    <div class="entry-tech">React · Node.js · WebSockets · Express · Role-Based Access Control</div>
+    <ul>
+      <li>Developed a full-stack collaborative project management platform with real-time updates via WebSocket connections across concurrent users</li>
+      <li>Engineered role-based access control with 4 permission tiers, managing granular access to boards, tasks, and team administration</li>
+      <li>Designed drag-and-drop task management with optimistic UI updates, reducing perceived latency by 80%</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">SaaS Idea Validator</span>
+      <span class="entry-date">2025</span>
+    </div>
+    <div class="entry-tech">React · TypeScript · Tailwind CSS · AI Integration · Vite</div>
+    <ul>
+      <li>Created an AI-powered validation tool analysing business ideas across market size, competition, feasibility, and monetisation potential</li>
+      <li>Achieved WCAG AA accessibility compliance with 44px+ touch targets, keyboard navigation, and screen reader support</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="entry">
+    <div class="entry-header">
+      <span class="entry-title">University of Melbourne</span>
+      <span class="entry-date">2022 — Present (4th Year)</span>
+    </div>
+    <div class="entry-org">Bachelor of Science — Software Engineering & UX Design</div>
+    <ul>
+      <li><strong>High Distinction:</strong> IT Project — Full-stack application development for industry client (VOUCHR)</li>
+      <li>Relevant coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Systems, Human-Computer Interaction, Software Modelling & Design, Distributed Systems</li>
+      <li>Member of CISSA (Computing & Information Systems Students Association)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+    <span class="skill-label">Languages</span>
+    <span class="skill-value">TypeScript, JavaScript, Python, Swift, C, HTML/CSS, SQL</span>
+    <span class="skill-label">Frontend</span>
+    <span class="skill-value">React, Next.js, SwiftUI, Tailwind CSS, Three.js, Vite</span>
+    <span class="skill-label">Backend</span>
+    <span class="skill-value">Node.js, FastAPI, Express, Supabase, PostgreSQL, REST APIs, WebSockets</span>
+    <span class="skill-label">Cloud & DevOps</span>
+    <span class="skill-value">AWS, Vercel, Docker, Git/GitHub, CI/CD, Deno (Edge Functions)</span>
+    <span class="skill-label">Design & Tools</span>
+    <span class="skill-value">Figma, Blender, Xcode, Playwright, Agile/Scrum, User Research</span>
+    <span class="skill-label">AI/ML</span>
+    <span class="skill-value">Google Gemini API, OpenAI API, prompt engineering, AI-integrated UX</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Additional</div>
+  <ul>
+    <li><strong>Hackathons:</strong> UNIHACK 2026 competitor (Australia's largest student hackathon, 500+ participants)</li>
+    <li><strong>Languages:</strong> English (native), Finnish (native) — bilingual</li>
+    <li><strong>3D & Creative:</strong> Blender — 3D modelling, animation, cloth simulation, procedural generation</li>
+    <li><strong>Interests:</strong> AI/ML applications, indie app development, creative technology, open-source tooling</li>
+  </ul>
+</div>
+
+</body>
+</html>
