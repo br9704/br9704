@@ -87,20 +87,6 @@ open_to: Graduate roles, freelance, collaborations, hackathons
 
 ---
 
-### `> stats.render()`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=br9704&show_icons=true&hide_border=true&bg_color=080808&title_color=f5f5f5&text_color=666666&icon_color=f5f5f5&count_private=true" alt="GitHub Stats" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=br9704&hide_border=true&background=080808&ring=f5f5f5&fire=f5f5f5&currStreakLabel=f5f5f5&sideLabels=666666&currStreakNum=f5f5f5&sideNums=666666&dates=333333" alt="GitHub Streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=br9704&layout=compact&hide_border=true&bg_color=080808&title_color=f5f5f5&text_color=666666&langs_count=8" alt="Top Languages" />
-
-</div>
-
----
-
 <div align="center">
 
 ```
