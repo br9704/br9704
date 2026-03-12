@@ -74,9 +74,11 @@ open_to: Graduate roles, freelance, collaborations, hackathons
 ║  SENTINEL                                            ║
 ║  AI-powered intelligence platform for iOS            ║
 ║  SwiftUI · Supabase · Gemini 2.5 · Firecrawl        ║
-║  Status: In testing — waitlist dropping soon          ║
+║  Status: In testing — join the waitlist ↓             ║
 ╚══════════════════════════════════════════════════════╝
 ```
+
+> 🔗 [**Join the Sentinel Waitlist — Free Pro at launch**](https://docs.google.com/forms/d/e/1FAIpQLScxJtDrOZWzgfjtuClkt--g73PDzBw5iPViYEF-fwAyew_uXQ/viewform)
 
 | Project | Stack | Description |
 |---------|-------|-------------|
