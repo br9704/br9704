@@ -8,6 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-080808?style=for-the-badge&logo=linkedin&logoColor=f5f5f5)](https://www.linkedin.com/in/brunojaamaa)
 [![Twitter](https://img.shields.io/badge/@brunojaamaa-080808?style=for-the-badge&logo=x&logoColor=f5f5f5)](https://x.com/brunojaamaa)
 [![Email](https://img.shields.io/badge/jaamaabruno@gmail.com-080808?style=for-the-badge&logo=gmail&logoColor=f5f5f5)](mailto:jaamaabruno@gmail.com)
+[![Sentinel Waitlist](https://img.shields.io/badge/Sentinel_Waitlist-080808?style=for-the-badge&logo=googleforms&logoColor=f5f5f5)](https://docs.google.com/forms/d/e/1FAIpQLScxJtDrOZWzgfjtuClkt--g73PDzBw5iPViYEF-fwAyew_uXQ/viewform)
 
 </div>
 
@@ -73,7 +74,7 @@ open_to: Graduate roles, freelance, collaborations, hackathons
 ║  SENTINEL                                            ║
 ║  AI-powered intelligence platform for iOS            ║
 ║  SwiftUI · Supabase · Gemini 2.5 · Firecrawl        ║
-║  Status: App Store bound                             ║
+║  Status: In testing — waitlist dropping soon          ║
 ╚══════════════════════════════════════════════════════╝
 ```
 
