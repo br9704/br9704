@@ -87,8 +87,8 @@ open_to: Graduate roles, freelance, collaborations, hackathons
 | Project | Stack | What It Does |
 |---------|-------|--------------|
 | **[Sentinel](https://github.com/br9704/sentinel-web)** | SwiftUI, Supabase, Gemini AI, Firecrawl, Deno | AI intelligence platform. Search any topic, get verified multi-source reports with claim verification and financial data |
+| **[GitPulse](https://github.com/br9704/gitpulse)** | TypeScript, Node.js, GitHub API, Three.js | Terminal CLI that generates developer profile report cards with heatmaps, hire-ability scores, and 3D export |
 | **[3D Visualizer](https://github.com/br9704/github-3d-visualizer)** | React, Three.js, TypeScript, WebGL | Interactive 3D visualization of GitHub contribution data with orbit controls and real-time rendering |
-| **[SaaS Validator](https://github.com/br9704/saas-idea-validator)** | React, TypeScript, Tailwind CSS | AI-powered SaaS idea validation with market scoring, batch analysis, and exportable reports |
 | **[Collab Dashboard](https://github.com/br9704/collab-dashboard)** | React, Node.js, WebSockets, TypeScript | Real-time collaborative project management with drag-and-drop, role-based permissions, and live sync |
 
 ---
