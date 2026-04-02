@@ -50,7 +50,6 @@ Open to graduate roles, freelance, and collaborations.
 | 🏆 **[SpeechMAX](https://github.com/MatthewAxton/SpeechMax)** | React, TypeScript, MediaPipe, Gemini AI, Supabase | 5th/183 at UNIHACK 2026. Real-time AI speech coach with eye contact tracking, posture analysis, pitch detection, and gamified training. |
 | **[UniSpace](https://github.com/br9704/UniSpace)** `in development` | React, Mapbox, Supabase Realtime, TypeScript | Real-time campus occupancy heatmap. Crowdsourced anonymous location data, smart recommendations, prediction engine. |
 | **[Ripple](https://github.com/br9704/ripple)** `in development` | React, Mapbox, Supabase, TensorFlow.js, Zustand | Civic issue reporter. Snap a problem, AI classifies it, the community upvotes it, the council fixes it. Piloting in Melbourne. |
-| **[3D Visualizer](https://github.com/br9704/github-3d-visualizer)** | React, Three.js, TypeScript, WebGL | Interactive 3D visualization of GitHub contribution data with orbit controls and real-time rendering. |
 | **[Collab Dashboard](https://github.com/br9704/collab-dashboard)** | React, Node.js, WebSockets, TypeScript | Real-time collaborative project management with drag-and-drop, role-based permissions, and live sync. |
 
 **[See all repositories →](https://github.com/br9704?tab=repositories)**
