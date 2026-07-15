@@ -4,10 +4,10 @@
 
 <br/>
 
-<a href="https://brunojaamaa.dev"><img src="https://img.shields.io/badge/brunojaamaa.dev-080808?style=for-the-badge&logo=vercel&logoColor=34C759" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/bruno-jaamaa-7918072a3/"><img src="https://img.shields.io/badge/LinkedIn-080808?style=for-the-badge&logo=linkedin&logoColor=34C759" alt="LinkedIn" /></a>
-<a href="mailto:jaamaabruno@gmail.com"><img src="https://img.shields.io/badge/Email-080808?style=for-the-badge&logo=gmail&logoColor=34C759" alt="Email" /></a>
-<a href="https://x.com/brunojaamaa"><img src="https://img.shields.io/badge/X-080808?style=for-the-badge&logo=x&logoColor=34C759" alt="X" /></a>
+<a href="https://brunojaamaa.dev"><img src="https://img.shields.io/badge/brunojaamaa.dev-080808?style=for-the-badge&logo=vercel&logoColor=f5f5f5" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/bruno-jaamaa-7918072a3/"><img src="https://img.shields.io/badge/LinkedIn-080808?style=for-the-badge&logo=linkedin&logoColor=f5f5f5" alt="LinkedIn" /></a>
+<a href="mailto:jaamaabruno@gmail.com"><img src="https://img.shields.io/badge/Email-080808?style=for-the-badge&logo=gmail&logoColor=f5f5f5" alt="Email" /></a>
+<a href="https://x.com/brunojaamaa"><img src="https://img.shields.io/badge/X-080808?style=for-the-badge&logo=x&logoColor=f5f5f5" alt="X" /></a>
 
 </div>
 
@@ -115,24 +115,20 @@ My **portfolio, brunojaamaa.dev, rebuilt as a browsable retro Windows-95 desktop
 
 ## `> stack`
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,swift,python,js,react,nextjs,tailwind,threejs&theme=dark" alt="Languages & frontend" />
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,deno,supabase,postgres,vercel,figma,blender,git&theme=dark" alt="Backend, infra & design" />
-
-</div>
+```text
+languages        typescript · swift · python · javascript
+frontend         react · next.js · tailwind · three.js
+backend          node · deno · supabase · postgres · stripe
+infra + design   vercel · figma · blender · git
+ai               claude · gemini · mcp · agentic workflows
+```
 
 ## `> git log --stat`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=br9704&layout=compact&hide_border=true&bg_color=080808&title_color=34C759&text_color=999999&langs_count=8" alt="Top languages" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=br9704&hide_border=true&background=080808&stroke=1f1f1f&ring=34C759&fire=34C759&currStreakLabel=34C759&sideLabels=999999&dates=666666&currStreakNum=f5f5f5&sideNums=f5f5f5" alt="GitHub streak" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=br9704&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=br9704&show_icons=true&hide_border=true&bg_color=080808&title_color=f5f5f5&text_color=cccccc&icon_color=f5f5f5&hide_rank=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=br9704&hide_border=true&background=080808&stroke=1f1f1f&ring=f5f5f5&fire=f5f5f5&currStreakLabel=f5f5f5&sideLabels=cccccc&dates=888888&currStreakNum=f5f5f5&sideNums=f5f5f5" alt="GitHub streak" />
 
 </div>
 
