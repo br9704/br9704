@@ -106,8 +106,8 @@ My **portfolio, brunojaamaa.dev, rebuilt as a browsable retro Windows-95 desktop
 <td valign="top"><b>Rock Purple</b> &nbsp;<code>Sep 2026</code><br/>Launch site for the debut album/film <i>"The Beginning of the Purple."</i> <sub>Next.js · Three.js · TypeScript</sub> · <a href="https://github.com/br9704/rock-purple-twosides">Repo</a></td>
 </tr>
 <tr>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/gitpulse.png" width="52" alt="gitpulse" /></td>
-<td valign="top"><b>gitpulse</b> &nbsp;<code>CLI</code><br/>Beautiful GitHub profile report cards in your terminal: contribution heatmaps, language breakdowns, and hire-ability scores. <sub>TypeScript · Node</sub> · <a href="https://github.com/br9704/gitpulse">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/yunmakai.png" width="52" alt="Yunmakai" /></td>
+<td valign="top"><b>Yunmakai</b><br/>A 3D, walkable motel-and-retail experience on the web, explored in first person. <sub>Three.js · React · WebGL</sub> · <a href="https://brunojaamaa.dev">Portfolio</a></td>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/unispace.png" width="52" alt="UniSpace" /></td>
 <td valign="top"><b>UniSpace</b><br/>Real-time campus occupancy heatmap for UniMelb students. On-device geofencing (GPS never leaves the phone) and a 24-hour prediction engine. <sub>React · Mapbox · Supabase</sub> · <a href="https://github.com/br9704/UniSpace">Repo</a></td>
 </tr>
