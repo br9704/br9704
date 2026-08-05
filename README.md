@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/banner.png" alt="Bruno Jaamaa — Software Engineer & UX Designer · Building Aethereum, Sentinel & Poke AI" width="100%" />
+<img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/banner.png" alt="Bruno Jaamaa — Software Engineer & UX Designer · Building Aethereum, ccline, Sentinel & Poke AI" width="100%" />
 
 <br/>
 
@@ -13,13 +13,14 @@
 
 ## `> whoami`
 
-Software engineer and UX designer studying a Bachelor of Science (Software Engineering & UX Design) at the **University of Melbourne**. I build at the seam of product design and engineering and ship both halves, the depth and the taste, as one person. I take products from concept to the App Store on my own, with an engineering-led, AI-augmented workflow that lets me ship polished, production-grade work at the pace of a small team. My work spans **iOS apps, full-stack web, and agentic AI systems**, with a 3D and motion background from indie-game and personal work.
+Software engineer and UX designer studying a Bachelor of Design in Computing and UX Design at the **University of Melbourne**. I build at the seam of product design and engineering and ship both halves, the depth and the taste, as one person. I take products from concept to the App Store on my own, with an engineering-led, AI-augmented workflow that lets me ship polished, production-grade work at the pace of a small team. My work spans **iOS apps, full-stack web, and agentic AI systems**, with a 3D and motion background from indie-game and personal work.
 
 ```
-● Two apps live on the App Store                 →  Sentinel · Poke AI
-● Building the coordination layer for AI agents  →  Aethereum
-● 5th of 183 at UNIHACK 2026                      →  SpeechMax
-● Based in Melbourne, AU                          →  open to work
+● Two apps live on the App Store                →  Sentinel · Poke AI
+● The coordination layer for AI coding agents   →  Aethereum, v0.9.1 on npm
+● Open-source tooling for Claude Code           →  ccline
+● 5th of 183 at UNIHACK 2026                    →  SpeechMax
+● Based in Melbourne, AU                        →  open to work
 ```
 
 ## `C:\PRODUCTS\` — flagship
@@ -31,24 +32,38 @@ Software engineer and UX designer studying a Bachelor of Science (Software Engin
 
 `┌─ AETHEREUM.EXE ─────────────────────[_][□][×]`
 
-### Aethereum &nbsp; `LIVE · docs`
-A **shared brain for AI coding agents**. Developers keep using native Claude Code while their agents silently share interface contracts, intent, and collision alerts across machines, so one agent writes the correct code before the other has even committed. A 29-tool MCP surface on one shared rail, cross-machine and cross-vendor, with opt-in end-to-end-encrypted code sharing.
-<br/><sub>**TypeScript · MCP · pnpm/Turborepo · Supabase · Zod · Next.js**</sub>
-<br/>[Docs](https://www.aethereum.dev) &nbsp;·&nbsp; [Repository](https://github.com/br9704/aethereum)
+### Aethereum &nbsp; `LIVE · v0.9.1`
+A **shared brain for AI coding agents**. Developers keep using native Claude Code, Codex or Cursor while their agents silently share interface contracts, intent, and collision alerts across machines, so one agent writes the correct code before the other has even committed. The wedge is the case git cannot see: contracts that exist only in someone's uncommitted working tree, on another laptop. A 29-tool MCP surface on one shared rail, cross-machine and cross-vendor, with opt-in end-to-end-encrypted code sharing, a desktop app that hosts real terminals beside the room view, and a CLI that ships all of it.
+<br/><sub>**TypeScript · MCP · pnpm/Turborepo · Supabase · Tauri · Zod · Next.js**</sub>
+<br/>[Docs](https://www.aethereum.dev) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/aethereum) &nbsp;·&nbsp; [Repository](https://github.com/br9704/aethereum) &nbsp;·&nbsp; [contract-check Action](https://github.com/br9704/contract-check)
 
 </td>
 </tr>
 
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/jjmarine.png" width="92" alt="JJMarine" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ccline.png" width="92" alt="ccline" /></td>
 <td valign="top">
 
-`┌─ JJMARINE.EXE ──────────────────────[_][□][×]`
+`┌─ CCLINE.EXE ────────────────────────[_][□][×]`
 
-### JJMarine &nbsp; `LIVE`
-A **luxury yacht sales & services platform** for an official Jeanneau dealer in Dubai. New and pre-owned power boats and sailing yachts, a browsable catalog with full specifications and pricing, charter and complete yacht-management services, and direct WhatsApp inquiry, premium hospitality meeting clean e-commerce.
-<br/><sub>**Next.js · TypeScript · Tailwind · Vercel**</sub>
-<br/>[Live site](https://jjmarine-website.vercel.app)
+### ccline &nbsp; `MIT · npx ccline-cli install`
+A **fail-soft toolkit for all four of Claude Code's extension surfaces**: statusline, hooks, slash commands, output styles. Zero runtime dependencies, 970 tests. Two rules carry the whole design and both are enforced by tests: the render path never fails loudly, because a broken statusline must not touch your session, and slow is the same as broken, because a line that misses its deadline renders empty and looks perfectly healthy while telling you nothing. It also keeps a small zoo in your statusline · six animals, one terminal cell each, drawn in quadrant blocks.
+<br/><sub>**TypeScript · Node · Vitest · zero dependencies**</sub>
+<br/>[Repository](https://github.com/br9704/ccline) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/ccline-cli)
+
+</td>
+</tr>
+
+<tr>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/sentinel.png" width="92" alt="Sentinel" /></td>
+<td valign="top">
+
+`┌─ SENTINEL.EXE ──────────────────────[_][□][×]`
+
+### Sentinel &nbsp; `App Store`
+**AI news intelligence**, on the App Store and web. Search any topic and Sentinel pulls from 3000+ global sources, including non-English with auto-translation, verifies every claim with AI, and delivers real-time intelligence reports with financial charts, timelines, and blind-spot analysis. Built solo across iOS, web, and a custom scraping pipeline, now expanding to Android.
+<br/><sub>**SwiftUI · Next.js · Supabase · Gemini · Deno Edge Functions · StoreKit 2**</sub>
+<br/>[Live site](https://sentinelintel.app)
 
 </td>
 </tr>
@@ -68,15 +83,15 @@ An **iOS Pokémon TCG companion**. A Claude-vision card scanner, raw and graded 
 </tr>
 
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/sentinel.png" width="92" alt="Sentinel" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/jjmarine.png" width="92" alt="JJMarine" /></td>
 <td valign="top">
 
-`┌─ SENTINEL.EXE ──────────────────────[_][□][×]`
+`┌─ JJMARINE.EXE ──────────────────────[_][□][×]`
 
-### Sentinel &nbsp; `App Store`
-**AI news intelligence**, on the App Store and web. Search any topic and Sentinel pulls from 3000+ global sources, including non-English with auto-translation, verifies every claim with AI, and delivers real-time intelligence reports with financial charts, timelines, and blind-spot analysis. Built solo across iOS, web, and a custom scraping pipeline, now expanding to Android.
-<br/><sub>**SwiftUI · Next.js · Supabase · Gemini · Deno Edge Functions · StoreKit 2**</sub>
-<br/>[Live site](https://sentinelintel.app)
+### JJMarine &nbsp; `LIVE`
+A **luxury yacht sales and services platform** for an official Jeanneau dealer in Dubai, where I am Technical Lead. A 46-boat catalogue where every row generates its own page and structured data, on-page specifications rather than PDF-only, charter and yacht management, a yacht matcher that sources any brand, and direct WhatsApp enquiry. Four locales including right-to-left Arabic, 320 indexed URLs, and a migration off Wix that covers every legacy link.
+<br/><sub>**Next.js 16 · TypeScript · Supabase · next-intl · Tailwind v4 · Vercel**</sub>
+<br/>[jjmarine.ae](https://www.jjmarine.ae)
 
 </td>
 </tr>
@@ -110,6 +125,12 @@ My **portfolio, brunojaamaa.dev, rebuilt as a browsable retro Windows-95 desktop
 <td valign="top"><b>Yunmakai</b><br/>A 3D, walkable motel-and-retail experience on the web, explored in first person. <sub>Three.js · React · WebGL</sub> · <a href="https://brunojaamaa.dev">Portfolio</a></td>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/unispace.png" width="52" alt="UniSpace" /></td>
 <td valign="top"><b>UniSpace</b><br/>Real-time campus occupancy heatmap for UniMelb students. On-device geofencing (GPS never leaves the phone) and a 24-hour prediction engine. <sub>React · Mapbox · Supabase</sub> · <a href="https://github.com/br9704/UniSpace">Repo</a></td>
+</tr>
+<tr>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/gitpulse.png" width="52" alt="GitPulse" /></td>
+<td valign="top"><b>GitPulse</b><br/>Terminal CLI that turns any GitHub profile into a report card: heatmaps, language breakdowns, an opinionated hire-ability score. <sub>TypeScript · Node · Vitest</sub> · <a href="https://github.com/br9704/gitpulse">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ripple.png" width="52" alt="Ripple" /></td>
+<td valign="top"><b>Ripple</b><br/>Snap a pothole and on-device AI files the council report in three seconds. Ten issue categories, no account needed. <sub>TypeScript · on-device AI</sub> · <a href="https://github.com/br9704/ripple">Repo</a></td>
 </tr>
 </table>
 
