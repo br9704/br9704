@@ -17,7 +17,7 @@ Software engineer and UX designer studying a Bachelor of Design in Computing and
 
 ```
 ● Two apps live on the App Store                →  Sentinel · Poke AI
-● The coordination layer for AI coding agents   →  Aethereum, v0.9.1 on npm
+● The coordination layer for AI coding agents   →  Aethereum, v0.9.9 on npm
 ● Open-source tooling for Claude Code           →  ccline
 ● 5th of 183 at UNIHACK 2026                    →  SpeechMax
 ● Based in Melbourne, AU                        →  open to work
@@ -32,7 +32,7 @@ Software engineer and UX designer studying a Bachelor of Design in Computing and
 
 `┌─ AETHEREUM.EXE ─────────────────────[_][□][×]`
 
-### Aethereum &nbsp; `LIVE · v0.9.1`
+### Aethereum &nbsp; `LIVE · v0.9.9`
 A **shared brain for AI coding agents**. Developers keep using native Claude Code, Codex or Cursor while their agents silently share interface contracts, intent, and collision alerts across machines, so one agent writes the correct code before the other has even committed. The wedge is the case git cannot see: contracts that exist only in someone's uncommitted working tree, on another laptop. A 29-tool MCP surface on one shared rail, cross-machine and cross-vendor, with opt-in end-to-end-encrypted code sharing, a desktop app that hosts real terminals beside the room view, and a CLI that ships all of it.
 <br/><sub>**TypeScript · MCP · pnpm/Turborepo · Supabase · Tauri · Zod · Next.js**</sub>
 <br/>[Docs](https://www.aethereum.dev) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/aethereum) &nbsp;·&nbsp; [Repository](https://github.com/br9704/aethereum) &nbsp;·&nbsp; [contract-check Action](https://github.com/br9704/contract-check)
@@ -47,7 +47,7 @@ A **shared brain for AI coding agents**. Developers keep using native Claude Cod
 `┌─ CCLINE.EXE ────────────────────────[_][□][×]`
 
 ### ccline &nbsp; `MIT · npx ccline-cli install`
-A **fail-soft toolkit for all four of Claude Code's extension surfaces**: statusline, hooks, slash commands, output styles. Zero runtime dependencies, 970 tests. Two rules carry the whole design and both are enforced by tests: the render path never fails loudly, because a broken statusline must not touch your session, and slow is the same as broken, because a line that misses its deadline renders empty and looks perfectly healthy while telling you nothing. It also keeps a small zoo in your statusline · six animals, one terminal cell each, drawn in quadrant blocks.
+A **fail-soft toolkit for all four of Claude Code's extension surfaces**: statusline, hooks, slash commands, output styles. Zero runtime dependencies. Two rules carry the whole design and both are enforced by tests: the render path never fails loudly, because a broken statusline must not touch your session, and slow is the same as broken, because a line that misses its deadline renders empty and looks perfectly healthy while telling you nothing. It also keeps a small zoo in your statusline · six animals, one terminal cell each, drawn in quadrant blocks.
 <br/><sub>**TypeScript · Node · Vitest · zero dependencies**</sub>
 <br/>[Repository](https://github.com/br9704/ccline) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/ccline-cli)
 
@@ -124,13 +124,25 @@ My **portfolio, brunojaamaa.dev, rebuilt as a browsable retro Windows-95 desktop
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/yunmakai.png" width="52" alt="Yunmakai" /></td>
 <td valign="top"><b>Yunmakai</b><br/>A 3D, walkable motel-and-retail experience on the web, explored in first person. <sub>Three.js · React · WebGL</sub> · <a href="https://brunojaamaa.dev">Portfolio</a></td>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/unispace.png" width="52" alt="UniSpace" /></td>
-<td valign="top"><b>UniSpace</b><br/>Real-time campus occupancy heatmap for UniMelb students. On-device geofencing (GPS never leaves the phone) and a 24-hour prediction engine. <sub>React · Mapbox · Supabase</sub> · <a href="https://github.com/br9704/UniSpace">Repo</a></td>
+<td valign="top"><b>UniSpace</b> &nbsp;<code>live</code><br/>Campus occupancy for 18 UniMelb buildings, where no coordinate ever leaves the phone — zone detection runs client-side and only a zone id is broadcast. <sub>React · Mapbox · TypeScript</sub> · <a href="https://unispace-tawny.vercel.app">Live</a> · <a href="https://github.com/br9704/UniSpace">Repo</a></td>
 </tr>
 <tr>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/gitpulse.png" width="52" alt="GitPulse" /></td>
-<td valign="top"><b>GitPulse</b><br/>Terminal CLI that turns any GitHub profile into a report card: heatmaps, language breakdowns, an opinionated hire-ability score. <sub>TypeScript · Node · Vitest</sub> · <a href="https://github.com/br9704/gitpulse">Repo</a></td>
+<td valign="top"><b>GitPulse</b> &nbsp;<code>npx @aethereumdev/gitpulse</code><br/>Any GitHub profile as a terminal report card, where every time-based number states the window it was actually measured over. <sub>TypeScript · Node · Vitest</sub> · <a href="https://www.npmjs.com/package/@aethereumdev/gitpulse">npm</a> · <a href="https://github.com/br9704/gitpulse">Repo</a></td>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ripple.png" width="52" alt="Ripple" /></td>
-<td valign="top"><b>Ripple</b><br/>Snap a pothole and on-device AI files the council report in three seconds. Ten issue categories, no account needed. <sub>TypeScript · on-device AI</sub> · <a href="https://github.com/br9704/ripple">Repo</a></td>
+<td valign="top"><b>Ripple</b> &nbsp;<code>in development</code><br/>Civic issue reporting as a PWA: photo in, pin on a shared map, with classification running on-device in the browser rather than on a server. <sub>TypeScript · LiteRT · PWA</sub> · <a href="https://github.com/br9704/ripple">Repo</a></td>
+</tr>
+<tr>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ctxbench.png" width="52" alt="ctxbench" /></td>
+<td valign="top"><b>ctxbench</b> &nbsp;<code>npx ctxbench</code><br/>A benchmark that A/B-tests whether an agent's context layer actually helps. It found no detectable effect at n=22, and a control re-run flipped enough tasks that the noise floor exceeded the effect. That result is the point. <sub>TypeScript · Node · MIT</sub> · <a href="https://www.npmjs.com/package/ctxbench">npm</a> · <a href="https://github.com/br9704/ctxbench">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/mcpaudit.png" width="52" alt="mcpaudit" /></td>
+<td valign="top"><b>mcpaudit</b> &nbsp;<code>npx @aethereumdev/mcp-audit</code><br/>A first-pass linter for MCP servers: conformance and safety rules, SARIF output, drift detection between runs. Zero runtime dependencies. <sub>TypeScript · Node · MIT</sub> · <a href="https://www.npmjs.com/package/@aethereumdev/mcp-audit">npm</a> · <a href="https://github.com/br9704/mcpaudit">Repo</a></td>
+</tr>
+<tr>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/distillation.png" width="52" alt="distillation" /></td>
+<td valign="top"><b>distillation</b><br/>LoRA-distilling an 8-class news classifier from a 35B teacher into a 4B student on Apple silicon. The student scores 0.840 macro-F1 against 0.337 for the keyword regex doing that job in production today, on a held-out set split before a single label was generated. <sub>Python · MLX · LoRA · MIT</sub> · <a href="https://github.com/br9704/distillation">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ossq.png" width="52" alt="ossq" /></td>
+<td valign="top"><b>ossq</b><br/>Scans twelve open-source repos and ranks their open issues against what I can actually fix. It physically cannot write to GitHub — that is enforced by a guard module, not by a policy. <sub>TypeScript · Node · MIT</sub> · <a href="https://github.com/br9704/oss-contributions">Repo</a></td>
 </tr>
 </table>
 
