@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/banner.png" alt="Bruno Jaamaa — Software Engineer & UX Designer · Building Aethereum, ccline, Sentinel & Poke AI" width="100%" />
+<img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/banner.png" alt="Bruno Jaamaa, design engineer" width="100%" />
 
 <br/>
 
@@ -13,138 +13,123 @@
 
 ## `> whoami`
 
-Software engineer and UX designer studying a Bachelor of Design in Computing and UX Design at the **University of Melbourne**. I build at the seam of product design and engineering and ship both halves, the depth and the taste, as one person. I take products from concept to the App Store on my own, with an engineering-led, AI-augmented workflow that lets me ship polished, production-grade work at the pace of a small team. My work spans **iOS apps, full-stack web, and agentic AI systems**, with a 3D and motion background from indie-game and personal work.
+Design engineer in Melbourne. I'm in the final year of a Bachelor of Design in Computing and UX Design at the **University of Melbourne**, and I build iOS apps, websites and tools for developers.
 
-```
-● Two apps live on the App Store                →  Sentinel · Poke AI
-● The coordination layer for AI coding agents   →  Aethereum, v0.9.9 on npm
-● Open-source tooling for Claude Code           →  ccline
-● 5th of 183 at UNIHACK 2026                    →  SpeechMax
-● Based in Melbourne, AU                        →  open to work
-```
+Graduating Nov 2026. Looking for a junior/graduate Software Engineer & Product Designer role in Melbourne from December, part-time or contract until then.
 
-## `C:\PRODUCTS\` — flagship
+## `C:\PRODUCTS\`
 
 <table>
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/aethereum.png" width="92" alt="Aethereum" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/aethereum.png" width="92" alt="aethereum" /></td>
 <td valign="top">
 
-`┌─ AETHEREUM.EXE ─────────────────────[_][□][×]`
+`┌─ AETHEREUM.EXE ───────────────────────[_][□][×]`
 
-### Aethereum &nbsp; `LIVE · v0.9.9`
-A **shared brain for AI coding agents**. Developers keep using native Claude Code, Codex or Cursor while their agents silently share interface contracts, intent, and collision alerts across machines, so one agent writes the correct code before the other has even committed. The wedge is the case git cannot see: contracts that exist only in someone's uncommitted working tree, on another laptop. A 29-tool MCP surface on one shared rail, cross-machine and cross-vendor, with opt-in end-to-end-encrypted code sharing, a desktop app that hosts real terminals beside the room view, and a CLI that ships all of it.
-<br/><sub>**TypeScript · MCP · pnpm/Turborepo · Supabase · Tauri · Zod · Next.js**</sub>
-<br/>[Docs](https://www.aethereum.dev) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/aethereum) &nbsp;·&nbsp; [Repository](https://github.com/br9704/aethereum) &nbsp;·&nbsp; [contract-check Action](https://github.com/br9704/contract-check)
+### Aethereum &nbsp; `npm · v0.9.9`
+A **shared brain for AI coding agents**. Agents on the same project share interface contracts and intent, so one of them finds out about a change before it collides with it.
+<br/><sub>**TypeScript · MCP · Supabase · Tauri · Next.js**</sub>
+<br/>[Docs](https://www.aethereum.dev) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/aethereum) &nbsp;·&nbsp; [Repository](https://github.com/br9704/aethereum)
 
 </td>
 </tr>
-
 <tr>
 <td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ccline.png" width="92" alt="ccline" /></td>
 <td valign="top">
 
-`┌─ CCLINE.EXE ────────────────────────[_][□][×]`
+`┌─ CCLINE.EXE ──────────────────────────[_][□][×]`
 
 ### ccline &nbsp; `MIT · npx ccline-cli install`
-A **fail-soft toolkit for all four of Claude Code's extension surfaces**: statusline, hooks, slash commands, output styles. Zero runtime dependencies. Two rules carry the whole design and both are enforced by tests: the render path never fails loudly, because a broken statusline must not touch your session, and slow is the same as broken, because a line that misses its deadline renders empty and looks perfectly healthy while telling you nothing. It also keeps a small zoo in your statusline · six animals, one terminal cell each, drawn in quadrant blocks.
-<br/><sub>**TypeScript · Node · Vitest · zero dependencies**</sub>
+A small toolkit for Claude Code's **statusline, hooks, slash commands and output styles**. No runtime dependencies, and it is built so a broken statusline can never break your session.
+<br/><sub>**TypeScript · Node · Vitest**</sub>
 <br/>[Repository](https://github.com/br9704/ccline) &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/ccline-cli)
 
 </td>
 </tr>
-
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/sentinel.png" width="92" alt="Sentinel" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/sentinel.png" width="92" alt="sentinel" /></td>
 <td valign="top">
 
-`┌─ SENTINEL.EXE ──────────────────────[_][□][×]`
+`┌─ SENTINEL.EXE ────────────────────────[_][□][×]`
 
-### Sentinel &nbsp; `App Store`
-**AI news intelligence**, on the App Store and web. Search any topic and Sentinel pulls from 3000+ global sources, including non-English with auto-translation, verifies every claim with AI, and delivers real-time intelligence reports with financial charts, timelines, and blind-spot analysis. Built solo across iOS, web, and a custom scraping pipeline, now expanding to Android.
-<br/><sub>**SwiftUI · Next.js · Supabase · Gemini · Deno Edge Functions · StoreKit 2**</sub>
-<br/>[Live site](https://sentinelintel.app)
+### Sentinel &nbsp; `App Store · paused`
+An **AI news app** for iOS and the web, and my first app. It is still on the App Store, with its news sources paused for now.
+<br/><sub>**SwiftUI · Next.js · Supabase · Gemini · StoreKit 2**</sub>
+<br/>[sentinelintel.app](https://sentinelintel.app)
 
 </td>
 </tr>
-
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/pokeai.png" width="92" alt="Poke AI" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/pokeai.png" width="92" alt="pokeai" /></td>
 <td valign="top">
 
-`┌─ POKEAI.EXE ────────────────────────[_][□][×]`
+`┌─ POKEAI.EXE ──────────────────────────[_][□][×]`
 
-### Poke AI &nbsp; `App Store`
-An **iOS Pokémon TCG companion**. A Claude-vision card scanner, raw and graded price intelligence (PSA, CGC, BGS, SGC), format-legal deck building, and a provably-fair digital pack engine that rips packs in-app and ships the real card to your door. Atomic inventory means zero overselling under concurrent rips; payment rails are split by design (StoreKit for digital, Stripe for physical).
-<br/><sub>**SwiftUI · SwiftData · Supabase · StoreKit 2 · Stripe · Claude Vision**</sub>
-<br/>[App Store](https://apps.apple.com/us/app/pokeai-tcg-scanner-prices/id6768052675) &nbsp;·&nbsp; [Site](https://pokeaiapp.com)
+### Poke AI &nbsp; `discontinued`
+An **iOS Pokémon card scanner** I cofounded, with prices, deck building and pack openings. We shipped it to the App Store in 2026 and later wound it down.
+<br/><sub>**SwiftUI · SwiftData · Supabase · StoreKit 2 · Stripe**</sub>
+<br/>[pokeaiapp.com](https://pokeaiapp.com)
 
 </td>
 </tr>
-
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/jjmarine.png" width="92" alt="JJMarine" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/jjmarine.png" width="92" alt="jjmarine" /></td>
 <td valign="top">
 
-`┌─ JJMARINE.EXE ──────────────────────[_][□][×]`
+`┌─ JJMARINE.EXE ────────────────────────[_][□][×]`
 
-### JJMarine &nbsp; `LIVE`
-A **luxury yacht sales and services platform** for an official Jeanneau dealer in Dubai, where I am Technical Lead. A 46-boat catalogue where every row generates its own page and structured data, on-page specifications rather than PDF-only, charter and yacht management, a yacht matcher that sources any brand, and direct WhatsApp enquiry. Four locales including right-to-left Arabic, 320 indexed URLs, and a migration off Wix that covers every legacy link.
-<br/><sub>**Next.js 16 · TypeScript · Supabase · next-intl · Tailwind v4 · Vercel**</sub>
+### JJ Marine &nbsp; `live`
+The **website for a Jeanneau boat dealer in Dubai**, where I am Technical Lead. A boat catalogue where every boat has its own page, four languages including Arabic, and a move off Wix.
+<br/><sub>**Next.js · TypeScript · Supabase · next-intl · Tailwind**</sub>
 <br/>[jjmarine.ae](https://www.jjmarine.ae)
 
 </td>
 </tr>
-
 <tr>
-<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/desktop.png" width="92" alt="The Desktop" /></td>
+<td width="118" align="center" valign="middle"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/desktop.png" width="92" alt="desktop" /></td>
 <td valign="top">
 
-`┌─ DESKTOP.EXE ───────────────────────[_][□][×]`
+`┌─ DESKTOP.EXE ─────────────────────────[_][□][×]`
 
-### The Desktop &nbsp; `LIVE`
-My **portfolio, brunojaamaa.dev, rebuilt as a browsable retro Windows-95 desktop**. A real windowing system with a taskbar, file explorer, terminal, and draggable app windows, a cellular-automata fire animation, glitch-text effects, and **Bubba**, a pixel-cat desktop pet. Designed and engineered solo with an AI-augmented workflow.
-<br/><sub>**Next.js · TypeScript · Canvas · Web Audio**</sub>
+### The Desktop &nbsp; `live`
+My **portfolio, brunojaamaa.dev, built as a Windows 95 style desktop**: draggable windows, a taskbar, a terminal, and Bubba, a pixel cat who lives on it.
+<br/><sub>**Next.js · TypeScript · three.js · Web Audio**</sub>
 <br/>[brunojaamaa.dev](https://brunojaamaa.dev)
 
 </td>
 </tr>
 </table>
 
-## `C:\PROGRAMS\` — more
+## `C:\PROGRAMS\`
 
 <table>
 <tr>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/speechmax.png" width="52" alt="SpeechMax" /></td>
-<td valign="top"><b>SpeechMax</b> &nbsp;<code>5th / 183</code><br/>Real-time AI speech coach, built at UNIHACK 2026. Live eye-contact tracking, posture analysis, pitch detection, and gamified training. <sub>React · MediaPipe · Gemini · Supabase</sub> · <a href="https://github.com/MatthewAxton/SpeechMax">Repo</a></td>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/rockpurple.png" width="52" alt="Rock Purple" /></td>
-<td valign="top"><b>Rock Purple</b> &nbsp;<code>Sep 2026</code><br/>Launch site for the debut album/film <i>"The Beginning of the Purple."</i> <sub>Next.js · Three.js · TypeScript</sub> · <a href="https://github.com/br9704/rock-purple-twosides">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/speechmax.png" width="52" alt="speechmax" /></td>
+<td valign="top"><b>SpeechMax</b><br/>A speech practice app that runs in the browser: eye contact, posture and pace feedback. Built in 48 hours with a team of four. <sub>React · MediaPipe · Gemini · Supabase</sub> · <a href="https://github.com/MatthewAxton/SpeechMax">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/unispace.png" width="52" alt="unispace" /></td>
+<td valign="top"><b>UniSpace</b> &nbsp;<code>live</code><br/>Campus occupancy for 18 UniMelb buildings. Location stays on the phone: only a zone id is sent. <sub>React · Mapbox · TypeScript</sub> · <a href="https://unispace-tawny.vercel.app">Live</a> · <a href="https://github.com/br9704/UniSpace">Repo</a></td>
 </tr>
 <tr>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/yunmakai.png" width="52" alt="Yunmakai" /></td>
-<td valign="top"><b>Yunmakai</b><br/>A 3D, walkable motel-and-retail experience on the web, explored in first person. <sub>Three.js · React · WebGL</sub> · <a href="https://brunojaamaa.dev">Portfolio</a></td>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/unispace.png" width="52" alt="UniSpace" /></td>
-<td valign="top"><b>UniSpace</b> &nbsp;<code>live</code><br/>Campus occupancy for 18 UniMelb buildings, where no coordinate ever leaves the phone — zone detection runs client-side and only a zone id is broadcast. <sub>React · Mapbox · TypeScript</sub> · <a href="https://unispace-tawny.vercel.app">Live</a> · <a href="https://github.com/br9704/UniSpace">Repo</a></td>
-</tr>
-<tr>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/gitpulse.png" width="52" alt="GitPulse" /></td>
-<td valign="top"><b>GitPulse</b> &nbsp;<code>npx @aethereumdev/gitpulse</code><br/>Any GitHub profile as a terminal report card, where every time-based number states the window it was actually measured over. <sub>TypeScript · Node · Vitest</sub> · <a href="https://www.npmjs.com/package/@aethereumdev/gitpulse">npm</a> · <a href="https://github.com/br9704/gitpulse">Repo</a></td>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ripple.png" width="52" alt="Ripple" /></td>
-<td valign="top"><b>Ripple</b> &nbsp;<code>in development</code><br/>Civic issue reporting as a PWA: photo in, pin on a shared map, with classification running on-device in the browser rather than on a server. <sub>TypeScript · LiteRT · PWA</sub> · <a href="https://github.com/br9704/ripple">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/gitpulse.png" width="52" alt="gitpulse" /></td>
+<td valign="top"><b>GitPulse</b> &nbsp;<code>npx @aethereumdev/gitpulse</code><br/>Any GitHub profile as a terminal report card. Every time-based number says what window it was measured over. <sub>TypeScript · Node · Vitest</sub> · <a href="https://www.npmjs.com/package/@aethereumdev/gitpulse">npm</a> · <a href="https://github.com/br9704/gitpulse">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/mcpaudit.png" width="52" alt="mcpaudit" /></td>
+<td valign="top"><b>mcpaudit</b> &nbsp;<code>npx @aethereumdev/mcp-audit</code><br/>A first-pass linter for MCP servers: conformance and safety rules, SARIF output, drift detection between runs. <sub>TypeScript · Node · MIT</sub> · <a href="https://www.npmjs.com/package/@aethereumdev/mcp-audit">npm</a> · <a href="https://github.com/br9704/mcpaudit">Repo</a></td>
 </tr>
 <tr>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ctxbench.png" width="52" alt="ctxbench" /></td>
-<td valign="top"><b>ctxbench</b> &nbsp;<code>npx ctxbench</code><br/>A benchmark that A/B-tests whether an agent's context layer actually helps. It found no detectable effect at n=22, and a control re-run flipped enough tasks that the noise floor exceeded the effect. That result is the point. <sub>TypeScript · Node · MIT</sub> · <a href="https://www.npmjs.com/package/ctxbench">npm</a> · <a href="https://github.com/br9704/ctxbench">Repo</a></td>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/mcpaudit.png" width="52" alt="mcpaudit" /></td>
-<td valign="top"><b>mcpaudit</b> &nbsp;<code>npx @aethereumdev/mcp-audit</code><br/>A first-pass linter for MCP servers: conformance and safety rules, SARIF output, drift detection between runs. Zero runtime dependencies. <sub>TypeScript · Node · MIT</sub> · <a href="https://www.npmjs.com/package/@aethereumdev/mcp-audit">npm</a> · <a href="https://github.com/br9704/mcpaudit">Repo</a></td>
+<td valign="top"><b>ctxbench</b> &nbsp;<code>npx ctxbench</code><br/>A benchmark that tests whether an agent's context layer actually helps. It found no detectable effect at n=22, and I published that. <sub>TypeScript · Node · MIT</sub> · <a href="https://www.npmjs.com/package/ctxbench">npm</a> · <a href="https://github.com/br9704/ctxbench">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/distillation.png" width="52" alt="distillation" /></td>
+<td valign="top"><b>distillation</b><br/>Distilling an 8-class news classifier from a 35B teacher model into a 4B student on Apple silicon, scored on a held-out set. <sub>Python · MLX · LoRA · MIT</sub> · <a href="https://github.com/br9704/distillation">Repo</a></td>
 </tr>
 <tr>
-<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/distillation.png" width="52" alt="distillation" /></td>
-<td valign="top"><b>distillation</b><br/>LoRA-distilling an 8-class news classifier from a 35B teacher into a 4B student on Apple silicon. The student scores 0.840 macro-F1 against 0.337 for the keyword regex doing that job in production today, on a held-out set split before a single label was generated. <sub>Python · MLX · LoRA · MIT</sub> · <a href="https://github.com/br9704/distillation">Repo</a></td>
+<td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ripple.png" width="52" alt="ripple" /></td>
+<td valign="top"><b>Ripple</b> &nbsp;<code>in development</code><br/>Civic issue reporting as a PWA: photo in, pin on a shared map, with classification running on the device. <sub>TypeScript · LiteRT · PWA</sub> · <a href="https://github.com/br9704/ripple">Repo</a></td>
 <td width="70" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/ossq.png" width="52" alt="ossq" /></td>
-<td valign="top"><b>ossq</b><br/>Scans twelve open-source repos and ranks their open issues against what I can actually fix. It physically cannot write to GitHub — that is enforced by a guard module, not by a policy. <sub>TypeScript · Node · MIT</sub> · <a href="https://github.com/br9704/oss-contributions">Repo</a></td>
+<td valign="top"><b>ossq</b><br/>Scans open-source repos and ranks their open issues against what I can actually fix. It cannot write to GitHub. <sub>TypeScript · Node · MIT</sub> · <a href="https://github.com/br9704/oss-contributions">Repo</a></td>
 </tr>
 </table>
+
+Also: [frontenddesignbasics](https://github.com/br9704/frontenddesignbasics), a guide to how I design websites and the tools I use. Still being written.
 
 ## `> stack`
 
@@ -153,20 +138,10 @@ languages        typescript · swift · python · javascript
 frontend         react · next.js · tailwind · three.js
 backend          node · deno · supabase · postgres · stripe
 infra + design   vercel · figma · blender · git
-ai               claude · gemini · mcp · agentic workflows
 ```
 
-## `> git log --stat`
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=br9704&show_icons=true&hide_border=true&bg_color=080808&title_color=f5f5f5&text_color=cccccc&icon_color=f5f5f5&hide_rank=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=br9704&hide_border=true&background=080808&stroke=1f1f1f&ring=f5f5f5&fire=f5f5f5&currStreakLabel=f5f5f5&sideLabels=cccccc&dates=888888&currStreakNum=f5f5f5&sideNums=f5f5f5" alt="GitHub streak" />
-
-</div>
-
-<div align="center">
-
-`Melbourne, Australia  ·  University of Melbourne  ·  Open to work`
+`Melbourne, Australia  ·  University of Melbourne`
 
 </div>
