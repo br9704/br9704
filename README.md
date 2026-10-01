@@ -8,6 +8,10 @@ Design engineer in Melbourne, finishing design and computing at the University o
 <td><b><a href="https://sentinelintel.app">Sentinel</a></b><br/>An AI news app for iOS and the web. My first app. Paused for now.</td>
 </tr>
 <tr>
+<td width="84" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/aethereum.png" width="56" alt="" /></td>
+<td><b><a href="https://www.aethereum.dev">Aethereum</a></b><br/>A shared brain for AI coding agents. Discontinued for now.</td>
+</tr>
+<tr>
 <td width="84" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/jjmarine.png" width="56" alt="" /></td>
 <td><b><a href="https://www.jjmarine.ae">JJ Marine</a></b><br/>The website for a boat dealer in Dubai, where I'm Technical Lead.</td>
 </tr>
@@ -21,7 +25,7 @@ Design engineer in Melbourne, finishing design and computing at the University o
 </tr>
 </table>
 
-Also: [Aethereum](https://www.aethereum.dev), a shared brain for AI coding agents, and [ccline](https://github.com/br9704/ccline), tools for the Claude Code statusline.
+Also: [ccline](https://github.com/br9704/ccline), tools for the Claude Code statusline.
 
 Graduating Nov 2026 and looking for a graduate role in Melbourne.
 
