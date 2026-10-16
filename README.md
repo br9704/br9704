@@ -12,10 +12,6 @@ Design engineer in Melbourne, finishing design and computing at the University o
 <td><b><a href="https://www.jjmarine.ae">JJ Marine</a></b><br/>A yacht dealership in Dubai, where I'm Technical Lead. I look after its website and SEO.</td>
 </tr>
 <tr>
-<td width="84" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/speechmax.png" width="56" alt="" /></td>
-<td><b><a href="https://brunojaamaa.dev/projects/speechmax">SpeechMAX</a></b><br/>A speech practice app that runs in the browser. Built with a team of four at UNIHACK 2026, where it placed 5th of 183.</td>
-</tr>
-<tr>
 <td width="84" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/aethereum.png" width="56" alt="" /></td>
 <td><b><a href="https://www.aethereum.dev">Aethereum</a></b><br/>A shared brain for AI coding agents. Discontinued for now.</td>
 </tr>
