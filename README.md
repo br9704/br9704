@@ -16,6 +16,10 @@ Design engineer in Melbourne, finishing design and computing at the University o
 <td><b><a href="https://www.aethereum.dev">Aethereum</a></b><br/>A shared brain for AI coding agents. Discontinued for now.</td>
 </tr>
 <tr>
+<td width="84" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/distillation.png" width="56" alt="" /></td>
+<td><b><a href="https://github.com/br9704/distillation">distillation</a></b><br/>I trained my own small AI model on my laptop to sort news into categories, by teaching it from a much bigger one.</td>
+</tr>
+<tr>
 <td width="84" align="center"><img src="https://raw.githubusercontent.com/br9704/br9704/main/assets/icons/desktop.png" width="56" alt="" /></td>
 <td><b><a href="https://brunojaamaa.dev">All projects</a></b><br/>Everything else I've made is on my portfolio.</td>
 </tr>
