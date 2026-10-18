@@ -7,7 +7,7 @@ Each `<slug>.svg` is the source glyph (`fill="currentColor"`); each `<slug>.png`
 is that glyph rendered white on a dark app-tile for use in the README.
 
 Mapping: `desktop` = `br95` (the Win95 desktop), `ossq` = `oss-contributions`.
-Others match their slug.
+Others match their slug. `control-plane` added 2026-10-19 with the same render.
 
 Rendering (so a later pass can reproduce these exactly): the glyph's
 `currentColor` is replaced with `#f5f5f5` and drawn at 224x224 over a rounded
